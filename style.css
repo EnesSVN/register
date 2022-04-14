@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    border: 1px black solid;
+    background: white;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.inputContainer{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+
+}
+.inputradio{
+    display: flex;
+    flex-direction: row;
+}
+.inputradio label{
+    margin-left: 2px;
+    margin-right: 15%;
+}
+.inputLeft{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: 2px;
+    justify-content: center;
+    
+}
+.inputRight{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-self: 2px;
+    justify-content: center;
+    margin-left: 2%;
+}
+.inputLeft input{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+.inputRight input{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+h1{
+    align-items: flex-start;
+    width:35px ;
+    margin: 0 0 2rem 0;
+    position: relative;
+
+}
+
+h1::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+
+.gender{
+    margin-bottom: 4%;
+}
+
+input{
+    border: 1px solid black;
+}
+
+
+.formContainer h1{
+    margin-bottom: 20px;
+}
+button{
+    width: 100%;
+    margin: 3rem auto 4rem auto;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    padding: 1rem 0 1rem 0;
+}
+
+
+
+
+
